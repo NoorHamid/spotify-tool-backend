@@ -2,6 +2,7 @@ import sys
 import spotipy
 import spotipy.util as util
 import dotenv
+import json
 
 dotenv.load_dotenv()
 
@@ -12,13 +13,15 @@ spotify_access_scope = 'playlist-modify-public'
 
 token = util.prompt_for_user_token(spotify_user, spotify_access_scope)
 
-if token:
-    sp = spotipy.Spotify(auth=token)
-    all_playlists = []
-    playlist = sp.current_user_playlists(20,0)
-    all_playlists.append(playlist)
+if not token:
+    exit(1)
 
-print(all_playlists)
+sp = spotipy.Spotify(auth=token)
+playlists = sp.current_user_playlists(20,0)["items"]
+# print(json.dumps(playlist, indent=2))
+
+playlist_names = [x["name"] for x in playlists]
+print(playlist_names)
 
 
 
