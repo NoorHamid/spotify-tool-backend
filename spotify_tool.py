@@ -41,6 +41,7 @@ def main():
 
     # Query playlists
     playlists = None
+    sp = None
     if token:
         sp = spotipy.Spotify(auth=token)
         playlists = sp.current_user_playlists(20, 0)["items"]
@@ -56,10 +57,11 @@ def main():
 
     # Add tracks to playlist
     if token:
-        sp = spotipy.Spotify(auth=token)
-        sp.trace = False
-        results = sp.user_playlist_add_tracks(username, playlist_ids, track_ids)
-        print(results)
+        #sp.trace = False
+        for playlist in playlist_ids:
+            results = sp.user_playlist_add_tracks(username, playlist, track_ids)
+            print(results)
+
     else:
         print("Can't get token for", username)
 
