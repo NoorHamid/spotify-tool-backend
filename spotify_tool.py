@@ -2,6 +2,8 @@ import sys
 import spotipy
 import spotipy.util as util
 import argparse
+import dotenv
+dotenv.load_dotenv()
 
 # Global variable(s)
 # include scopes for both public and private??
