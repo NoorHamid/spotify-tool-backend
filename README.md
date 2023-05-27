@@ -4,7 +4,7 @@
 # Objective
 The goal of this project is to make a web app front end capable of adding a song to multiple playlists at once on Spotify
 
-<img src="https://media.tenor.com/Yg9cr-N09a4AAAAM/music.gif" width="140" height="220"/>
+<img src="https://media.tenor.com/Yg9cr-N09a4AAAAM/music.gif"/>
 
 ## Built With
   Python
