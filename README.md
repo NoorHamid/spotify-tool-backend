@@ -1,12 +1,10 @@
 
 # Spotify API Project
 
-<img src="[https://media.giphy.com/media/QX15lZJbifeQPzcNDt/giphy.gif]" width="140" height="220"/>
-
-
 # Objective
 The goal of this project is to make a web app front end capable of adding a song to multiple playlists at once on Spotify
 
+<img src="https://media.tenor.com/Yg9cr-N09a4AAAAM/music.gif" width="140" height="220"/>
 
 ## Built With
   Python
