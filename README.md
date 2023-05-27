@@ -1,7 +1,7 @@
 
 # Spotify API Project
 
-<img src="[https://media.giphy.com/media/QX15lZJbifeQPzcNDt/giphy.gif](https://i.giphy.com/media/6FxJBpNTBgWdJCXKD4/giphy.webp)" width="140" height="220"/>
+<img src="[https://media.giphy.com/media/QX15lZJbifeQPzcNDt/giphy.gif]" width="140" height="220"/>
 
 
 # Objective
