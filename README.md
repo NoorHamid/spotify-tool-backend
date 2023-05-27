@@ -7,14 +7,14 @@ The goal of this project is to make a web app front end capable of adding a song
 <img src="https://media.tenor.com/Yg9cr-N09a4AAAAM/music.gif"/>
 
 ## Built With
-  Python
-  Github
-  Spotipy (Python Spotify api package)
-  Flask (Python api framework)
-  ReST Api
-  React
-  Node
-  JavaScript
+  -> Python  
+  -> Github  
+  -> Spotipy (Python Spotify api package)  
+  -> Flask (Python api framework)    
+  -> ReST Api   
+  -> React   
+  -> Node  
+  -> JavaScript  
   
 ## Features
 * Can search for a song based on a string passed in as an argument
